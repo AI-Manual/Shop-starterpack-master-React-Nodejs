@@ -1,27 +1,78 @@
-# Getting Started with Create React App
+# 🛍️ Shop Frontend - React + TailwindCSS
 
+Một website shop mỹ phẩm hiện đại được xây dựng với **React** và **TailwindCSS**.
 
+## 🚀 Công nghệ sử dụng
 
-In the project directory, you can run:
+- ⚛️ **React 18** - Thư viện UI
+- 🎨 **TailwindCSS v3** - Framework CSS utility-first
+- 🎭 **Framer Motion** - Animation library
+- 🎠 **Swiper** - Carousel slider
+- 🖼️ **React Compare Image** - Image comparison
+- ✨ **Auto Animate** - Smooth transitions
+- 🎯 **Heroicons & React Icons** - Icon libraries
 
-### `yarn start`
+## 📦 Cài đặt
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+cd client
+npm install --legacy-peer-deps
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Chạy ứng dụng
 
-### `yarn test`
+```bash
+cd client
+npm start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Website sẽ mở tại: **http://localhost:3000**
 
-### `yarn build`
+## 🎨 Tính năng
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- ✅ **Responsive Design** - Hoạt động mượt mà trên mọi thiết bị
+- ✅ **Product Filtering** - Lọc sản phẩm theo danh mục
+- ✅ **Product Slider** - Hiển thị sản phẩm nổi bật
+- ✅ **Virtual Try-On** - So sánh before/after
+- ✅ **Testimonials Carousel** - Đánh giá khách hàng
+- ✅ **Smooth Animations** - Animation mượt mà với Framer Motion
+- ✅ **Modern UI** - Giao diện đẹp với TailwindCSS
 
-![img](img.png)
+## 📁 Cấu trúc
 
+```
+client/
+├── public/              # Static files
+├── src/
+│   ├── assets/         # Images, logos
+│   ├── components/     # React components
+│   │   ├── Header/
+│   │   ├── Hero/
+│   │   ├── Slider/
+│   │   ├── Virtual/
+│   │   ├── Products/
+│   │   ├── Testimonials/
+│   │   └── Footer/
+│   ├── data/          # Local data
+│   ├── App.js
+│   └── index.js
+├── tailwind.config.js
+└── package.json
+```
 
+## 🛠️ Build Production
+
+```bash
+cd client
+npm run build
+```
+
+Build sẽ tạo folder `build/` chứa static files.
+
+## 📄 License
+
+ISC
+
+---
+
+**Made with ❤️ using React & TailwindCSS**
