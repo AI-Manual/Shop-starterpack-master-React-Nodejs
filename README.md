@@ -1,44 +1,44 @@
 # 🛍️ Shop Frontend - React + TailwindCSS
 
-Một website shop mỹ phẩm hiện đại được xây dựng với **React** và **TailwindCSS**.
+A modern cosmetics shop website built with **React** and **TailwindCSS**.
 
-## 🚀 Công nghệ sử dụng
+## 🚀 Technologies Used
 
-- ⚛️ **React 18** - Thư viện UI
-- 🎨 **TailwindCSS v3** - Framework CSS utility-first
-- 🎭 **Framer Motion** - Animation library
-- 🎠 **Swiper** - Carousel slider
-- 🖼️ **React Compare Image** - Image comparison
-- ✨ **Auto Animate** - Smooth transitions
-- 🎯 **Heroicons & React Icons** - Icon libraries
+- ⚛️ **React 18** - UI Library
+- 🎨 **TailwindCSS v3** - Utility-first CSS Framework
+- 🎭 **Framer Motion** - Animation Library
+- 🎠 **Swiper** - Carousel Slider
+- 🖼️ **React Compare Image** - Image Comparison Component
+- ✨ **Auto Animate** - Smooth Transitions
+- 🎯 **Heroicons & React Icons** - Icon Libraries
 
-## 📦 Cài đặt
+## 📦 Installation
 
 ```bash
 cd client
 npm install --legacy-peer-deps
 ```
 
-## 🚀 Chạy ứng dụng
+## 🚀 Running the Application
 
 ```bash
 cd client
 npm start
 ```
 
-Website sẽ mở tại: **http://localhost:3000**
+The website will open at: **http://localhost:3000**
 
-## 🎨 Tính năng
+## 🎨 Features
 
-- ✅ **Responsive Design** - Hoạt động mượt mà trên mọi thiết bị
-- ✅ **Product Filtering** - Lọc sản phẩm theo danh mục
-- ✅ **Product Slider** - Hiển thị sản phẩm nổi bật
-- ✅ **Virtual Try-On** - So sánh before/after
-- ✅ **Testimonials Carousel** - Đánh giá khách hàng
-- ✅ **Smooth Animations** - Animation mượt mà với Framer Motion
-- ✅ **Modern UI** - Giao diện đẹp với TailwindCSS
+- ✅ **Responsive Design** - Works seamlessly on all devices
+- ✅ **Product Filtering** - Filter products by category
+- ✅ **Product Slider** - Showcase featured products
+- ✅ **Virtual Try-On** - Before/after comparison
+- ✅ **Testimonials Carousel** - Customer reviews
+- ✅ **Smooth Animations** - Smooth animations with Framer Motion
+- ✅ **Modern UI** - Beautiful interface with TailwindCSS
 
-## 📁 Cấu trúc
+## 📁 Project Structure
 
 ```
 client/
@@ -60,14 +60,14 @@ client/
 └── package.json
 ```
 
-## 🛠️ Build Production
+## 🛠️ Build for Production
 
 ```bash
 cd client
 npm run build
 ```
 
-Build sẽ tạo folder `build/` chứa static files.
+This will create a `build/` folder containing static files.
 
 ## 📄 License
 
